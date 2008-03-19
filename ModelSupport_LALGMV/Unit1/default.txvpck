@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="72fi0y4u3d9r47uro_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:LALGMV:Unit1.TForm1">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.acExecutarTudo" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.ActionToolBar1" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.acExecutarTudoExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.FEntrada" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.Label5" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.pilhaValorSet(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.acStepExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.FSaida" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.ImageList1" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.Label6" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.acAbrir" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.acResetExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.EscreveFitaSaida(System.string)" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.Label4" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.FetchInstrucao(System.string)" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.acFecharExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.acStep" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.pilhaPush(System.string)" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.Label2" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.acReset" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.JvFilenameEdit1" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.JvFilenameEdit1AfterDialog(System.TObject,ref@System.string,ref@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.LeFitadeEntrada()" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.FProgramCounter" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.Label1" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.Label3" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.pilhaPop()" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.PDados" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.FormCreate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.PDadosDrawItem(Controls.TWinControl,System.Integer,Types.TRect,$$)" />
+      <reference referencedUin="delphi:e_property:src:LALGMV:Unit1.TForm1.ProgramCounter" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.ResetLalgMV(System.string)" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.pilhaValor(System.Integer)" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.ActionManager1" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.ADadosClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:LALGMV:Unit1.TForm1.SetProgramCounter(System.Integer)" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.ADados" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.TForm1.acFechar" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:LALGMV:Unit1.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:LALGMV:Unit1.@unitclass.Form1" />
+      <reference referencedUin="delphi:l_ast:src:LALGMV:Unit1.@unitclass.Form1" />
+    </reference>
+  </view>
+</nodeSet>
