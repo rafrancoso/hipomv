@@ -1,7 +1,7 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'Lalg-MV'
+  Caption = 'Hipo-MV'
   ClientHeight = 477
   ClientWidth = 725
   Color = clBtnFace
@@ -83,7 +83,6 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 0
     OnClick = ADadosClick
-    ExplicitHeight = 355
   end
   object FSaida: TEdit
     Left = 408
@@ -118,13 +117,12 @@ object Form1: TForm1
     Height = 26
     ActionManager = ActionManager1
     Caption = 'ActionToolBar1'
-    ColorMap.HighlightColor = 15921906
+    ColorMap.HighlightColor = 14410210
     ColorMap.BtnSelectedColor = clBtnFace
-    ColorMap.UnusedColor = 15921906
+    ColorMap.UnusedColor = 14410210
     ParentShowHint = False
     ShowHint = True
     Spacing = 0
-    ExplicitWidth = 721
   end
   object PnMensagem: TPanel
     Left = 8
@@ -139,8 +137,6 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 4
-    ExplicitTop = 436
-    ExplicitWidth = 705
   end
   object PDados: TValueListEditor
     Left = 255
@@ -152,7 +148,6 @@ object Form1: TForm1
     TitleCaptions.Strings = (
       'Endere'#231'o'
       'Valor')
-    ExplicitHeight = 355
     ColWidths = (
       62
       76)
@@ -161,7 +156,7 @@ object Form1: TForm1
     Left = 608
     Top = 40
     Bitmap = {
-      494C010109000E00040010001000FFFFFFFFFF00FFFFFFFFFFFFFFFF424D3600
+      494C010109000B00040010001000FFFFFFFFFF00FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000003000000001002000000000000030
       0000000000000000000000000000000000000000000000000000000000000000
       00000000000000000000DFBCAD00CCB6AD00C4ABA200D5B2A400000000000000

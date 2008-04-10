@@ -45,7 +45,7 @@ type
   private
     FProgramCounter: integer;
     procedure SetProgramCounter(const Value: integer);
-    procedure ResetLalgMV(AName: string);
+    procedure ResetaMV(AName: string);
     { Private declarations }
   public
     { Public declarations }
@@ -72,7 +72,7 @@ procedure TForm1.acAbrirExecute(Sender: TObject);
 begin
   if  OpenDialog1.Execute  then
   begin
-      ResetLalgMV(OpenDialog1.FileName);
+      ResetaMV(OpenDialog1.FileName);
       PnMensagem.Caption := '';
   end;
 
@@ -86,7 +86,7 @@ begin
     exit;
   end;
 
-  ResetLalgMV('');
+  ResetaMV('');
   PnMensagem.Caption := 'Executando Programa';
   while ProgramCounter <> -1 do
     FetchInstrucao(ADados.Items[ProgramCounter].Text);
@@ -101,7 +101,7 @@ end;
 
 procedure TForm1.acResetExecute(Sender: TObject);
 begin
-  ResetLalgMV('');
+  ResetaMV('');
   PnMensagem.Caption:='Resetado';
 end;
 
@@ -142,7 +142,7 @@ begin
 //
 end;
 
-procedure TForm1.ResetLalgMV(AName: string);
+procedure TForm1.ResetaMV(AName: string);
 var
   ind: Integer;
   sl: TStringList;
@@ -291,7 +291,7 @@ end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
-  ResetLalgMV('');
+  ResetaMV('');
 end;
 
 procedure TForm1.FormKeyDown(Sender: TObject; var Key: Word; Shift:

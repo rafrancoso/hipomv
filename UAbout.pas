@@ -4,14 +4,19 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, jpeg, ExtCtrls, JvExExtCtrls, JvImage;
+  Dialogs, StdCtrls, jpeg, ExtCtrls, JvExExtCtrls, JvImage, ImgList,
+  JvExControls, JvaScrollText, JvScrollText, JvPoweredBy;
 
 type
   TFSobre = class(TForm)
-    Button1: TButton;
+    Fechar: TButton;
     JvImage1: TJvImage;
-    Image1: TImage;
-    procedure Button1Click(Sender: TObject);
+    Timer1: TTimer;
+    Memo1: TMemo;
+    JvPoweredByJVCL1: TJvPoweredByJVCL;
+    procedure FecharClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure FormDestroy(Sender: TObject);
   private
     { Private declarations }
   public
@@ -25,9 +30,19 @@ implementation
 
 {$R *.dfm}
 
-procedure TFSobre.Button1Click(Sender: TObject);
+procedure TFSobre.FecharClick(Sender: TObject);
 begin
   Close;
+end;
+
+procedure TFSobre.FormCreate(Sender: TObject);
+begin
+  DoubleBuffered:=true;
+end;
+
+procedure TFSobre.FormDestroy(Sender: TObject);
+begin
+  DoubleBuffered:=false;
 end;
 
 end.
